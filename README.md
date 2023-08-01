@@ -1,1 +1,1 @@
-# Portugol
+# Exercícios do Beecrowd usando Portugol
