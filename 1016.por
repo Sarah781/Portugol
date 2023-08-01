@@ -1,5 +1,4 @@
 programa {
-  inclua biblioteca Util --> u
   funcao inicio() {
     inteiro distancia,km
 
