@@ -1,7 +1,8 @@
 programa {
   inclua biblioteca Matematica --> mat
   funcao inicio() {
-    inteiro horas,velocidade,km
+    inteiro horas,velocidade
+    real km
 
     leia(horas,velocidade)
 
