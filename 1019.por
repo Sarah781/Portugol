@@ -1,15 +1,17 @@
 programa {
   inclua biblioteca Matematica --> mat
   funcao inicio() {
-    inteiro N, hora, minuto, segundo
+    inteiro n, hora, minuto, segundo
 
-    leia(N)
+    leia(n)
 
-    segundo = (N / 10) / 60
-    minuto = N / 60
-    hora = minuto / 60 
-
+    hora = n * 0.00027777777777778
+    minuto = n * 0.016666666666667
+    segundo = n 
+    
     escreva(mat.arredondar(hora, 2), ":", mat.arredondar(minuto, 2), ":", mat.arredondar(segundo, 2))
-    //arrumar tudo
+
   }
-}
+} 
+
+    //Arrumar
