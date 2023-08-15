@@ -29,3 +29,24 @@ programa {
     escreva(valor, "\n", cem, " nota(s) de R$ 100,00 \n", cinquenta, " nota(s) de R$ 50,00 \n", vinte, " nota(s) de R$ 20,00 \n", dez, " nota(s) de R$ 10,00 \n", cinco, " nota(s) de R$ 5,00 \n", dois, " nota(s) de R$ 2,00 \n", um, " nota(s) de R$ 1,00 \n" )
   }
 }
+
+
+// Ou
+
+programa {
+  funcao inicio() {
+
+    inteiro valor, total_notas
+    inteiro notas[7] = {100, 50, 20, 10, 5, 2, 1}
+
+    leia(valor)
+    escreva(valor, "\n")
+
+    para(inteiro i = 0; i < 7; i++) {
+      total_notas = valor / notas[i]
+      valor = valor % notas[i]
+      escreva(total_notas, " nota(s) de R$ ", notas[i], ",00\n")
+    }
+
+  }
+}
