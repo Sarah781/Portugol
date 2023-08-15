@@ -5,13 +5,11 @@ programa {
 
     leia(n)
 
-    hora = n * 0.00027777777777778
-    minuto = n * 0.016666666666667
-    segundo = n 
+    hora = n / 3600
+    minuto = (n%3600)/60 
+    segundo = n%3600%60
     
     escreva(mat.arredondar(hora, 2), ":", mat.arredondar(minuto, 2), ":", mat.arredondar(segundo, 2))
 
   }
 } 
-
-    //Arrumar
